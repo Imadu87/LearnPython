@@ -114,3 +114,14 @@
 # print(id(a))
 # print(id(b))
 # Both id are same 
+
+# a = "Imad"
+# print(a.upper())
+# print(a.lower())
+# print(a)
+
+# Extract last word 
+sentence = "Python is very powerful"
+
+last_word = sentence.rsplit(" ", 1)[-1]
+print(last_word)
